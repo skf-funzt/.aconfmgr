@@ -1,5 +1,5 @@
 default:
-    echo 'Hello, world!'
+    @just --choose
 
 save:
     aconfmgr save -c ./aconfmgr
@@ -9,3 +9,6 @@ link:
 
 clean:
     git clean -fdx
+
+exit:
+    exit 0
